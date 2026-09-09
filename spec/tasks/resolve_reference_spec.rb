@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'spec_helper'
-require_relative '../../tasks/resolve_reference.rb'
+require_relative '../../tasks/resolve_reference'
 
 describe YAMLReference do
   let(:data) { { 'expected' => 'data' } }

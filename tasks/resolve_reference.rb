@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require_relative "../../ruby_task_helper/files/task_helper.rb"
+require_relative '../../ruby_task_helper/files/task_helper'
 require 'yaml'
 
 class YAMLReference < TaskHelper
@@ -13,11 +13,9 @@ class YAMLReference < TaskHelper
                 else
                   File.expand_path(path)
                 end
-    data = YAML.safe_load(File.read(full_path))
+    data = YAML.safe_load_file(full_path)
     { value: data }
   end
 end
 
-if $PROGRAM_NAME == __FILE__
-  YAMLReference.run
-end
+YAMLReference.run if $PROGRAM_NAME == __FILE__
