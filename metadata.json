@@ -15,6 +15,18 @@
     }
   ],
   "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "24.04"
+      ]
+    },
+    {
+      "operatingsystem": "Rocky",
+      "operatingsystemrelease": [
+        "9"
+      ]
+    }
   ],
   "requirements": [
     {
