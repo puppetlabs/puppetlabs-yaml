@@ -13,22 +13,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - (BOLT-193): yaml pdk update to puppet 9 [#8](https://github.com/puppetlabs/puppetlabs-yaml/pull/8) ([gavindidrichsen](https://github.com/gavindidrichsen))
 
-### Other
+## [v0.2.0]()
 
-- CHANGELOG update [#9](https://github.com/puppetlabs/puppetlabs-yaml/pull/9) ([gavindidrichsen](https://github.com/gavindidrichsen))
-- (maint) Add release workflow [#6](https://github.com/puppetlabs/puppetlabs-yaml/pull/6) ([beechtom](https://github.com/beechtom))
-- (maint) Add code of conduct and contributing docs [#5](https://github.com/puppetlabs/puppetlabs-yaml/pull/5) ([beechtom](https://github.com/beechtom))
-- Fix example in README [#4](https://github.com/puppetlabs/puppetlabs-yaml/pull/4) ([EppO](https://github.com/EppO))
+### New features
 
-## [0.2.0](https://github.com/puppetlabs/puppetlabs-yaml/tree/0.2.0) - 2020-02-14
+* **Set `resolve_reference` task to private** ([#1](https://github.com/puppetlabs/puppetlabs-terraform/pulls/1))
 
-[Full Changelog](https://github.com/puppetlabs/puppetlabs-yaml/compare/0.1.0...0.2.0)
+    The `resolve_reference` task has been set to `private` so it no longer appears in UI lists.
 
-### Other
+## Release 0.1.0
 
-- (maint) Prep 0.2.0 [#3](https://github.com/puppetlabs/puppetlabs-yaml/pull/3) ([beechtom](https://github.com/beechtom))
-- (maint) Set resolve_reference task to private [#2](https://github.com/puppetlabs/puppetlabs-yaml/pull/2) ([beechtom](https://github.com/beechtom))
-
-## [0.1.0](https://github.com/puppetlabs/puppetlabs-yaml/tree/0.1.0) - 2019-11-12
-
-[Full Changelog](https://github.com/puppetlabs/puppetlabs-yaml/compare/45341f7c5dd3f01be206f3ab7b0f8dc8ce1c34f5...0.1.0)
+This is the initial release.
