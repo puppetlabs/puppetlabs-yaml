@@ -1,11 +1,16 @@
-## Release 0.2.0
+<!-- markdownlint-disable MD024 -->
+# Changelog
 
-### New features
+All notable changes to this project will be documented in this file.
 
-* **Set `resolve_reference` task to private** ([#1](https://github.com/puppetlabs/puppetlabs-terraform/pulls/1))
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
-    The `resolve_reference` task has been set to `private` so it no longer appears in UI lists.
+## [v1.0.0](https://github.com/puppetlabs/puppetlabs-yaml/tree/v1.0.0) - 2026-09-10
 
-## Release 0.1.0
+[Full Changelog](https://github.com/puppetlabs/puppetlabs-yaml/compare/0.2.0...v1.0.0)
 
-This is the initial release.
+### Changed
+
+- (BOLT-193): yaml pdk update to puppet 9 [#8](https://github.com/puppetlabs/puppetlabs-yaml/pull/8) ([gavindidrichsen](https://github.com/gavindidrichsen))
+
+Release notes prior to v1.0.0 have been moved to [ARCHIVE.md](ARCHIVE.md).
