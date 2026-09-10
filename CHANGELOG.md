@@ -13,14 +13,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - (BOLT-193): yaml pdk update to puppet 9 [#8](https://github.com/puppetlabs/puppetlabs-yaml/pull/8) ([gavindidrichsen](https://github.com/gavindidrichsen))
 
-## [v0.2.0]()
-
-### New features
-
-* **Set `resolve_reference` task to private** ([#1](https://github.com/puppetlabs/puppetlabs-terraform/pulls/1))
-
-    The `resolve_reference` task has been set to `private` so it no longer appears in UI lists.
-
-## Release 0.1.0
-
-This is the initial release.
+Release notes prior to v1.0.0 have been moved to [ARCHIVE.md](ARCHIVE.md).
