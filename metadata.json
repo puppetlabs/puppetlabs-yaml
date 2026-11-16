@@ -1,7 +1,7 @@
 {
   "name": "puppetlabs-yaml",
   "description": "Bolt plugin to load yaml data",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": "puppetlabs",
   "summary": "YAML plugin for bolt",
   "license": "Apache-2.0",
